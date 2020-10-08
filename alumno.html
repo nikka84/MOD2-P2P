@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="estilo_alumno.css" rel="stylesheet" type="text/css" />
+    <title>Verónica Domecio</title>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <h1 id="logo">ALUMNO</h1>
+        <!--Menú para versión móvil-->
+        <input type="checkbox" id="menu-bar" />
+        <label class="iconmenu" for="menu-bar"
+          ><img class="icono" src="./img/ListMenu.png"
+        /></label>
+        <!--------------------------->
+        <nav class="menu">
+          <ul>
+            <li><a href="index.html">INICIO</a></li>
+            <li><a href="alumno.html">ALUMNO</a></li>
+            <li>
+              <a href="https://cssgridgarden.com/#es" target="_blank">GRID</a>
+            </li>
+            <li>
+              <a
+                href="https://www.w3schools.com/cssref/css3_pr_mediaquery.asp"
+                target="_blank"
+                >@media</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section>
+      <article>
+        <div class="main">
+          <div class="bloque" id="vertical">
+            <h1 id="titulo">Etiqueta video</h1>
+            <video controls>
+              <source src="./video/MOOC.webm" type="video/webm" />
+              <source src="./video/MOOC.mp4" type="video/mp4" />
+              <source src="./video/MOOC.ogv" type="video/ogg" />
+              <source src="./video/MOOC.mov" type="video/mp4" />
+            </video>
+            <h1 id="titulo">Etiqueta iframe</h1>
+            <iframe src="./video/MOOC.webm"></iframe>
+          </div>
+          <div class="bloque" id="horizontal">
+            <h1 id="titulo">
+              <a href="https://disney.es/peliculas" target="_blank"
+                >=&gt; Página Responsive: Disney</a
+              >
+            </h1>
+            <iframe src="https://disney.es/peliculas"></iframe>
+          </div>
+          <div class="bloque" id="horizontal">
+            <h1 id="titulo">Video Incrustado - Youtube</h1>
+            <iframe
+              src="https://www.youtube.com/embed/AltfOVdklMs"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </article>
+      <aside>
+        <div class="card">
+          <a href="https://www.freepik.es/" target="_blank">
+            <img src="./img/Logo-Freepik.png"
+          /></a>
+        </div>
+        <div class="card">
+          <a href="https://developer.mozilla.org/es/" target="_blank"
+            ><img src="./img/logoMDN.png"
+          /></a>
+        </div>
+        <div class="card">
+          <a href="https://neocities.org/" target="_blank"
+            ><img src="./img/logoNeocities.png"
+          /></a>
+        </div>
+      </aside>
+    </section>
+    <footer><p>&copy; Verónica Domecio</p></footer>
+  </body>
+</html>
